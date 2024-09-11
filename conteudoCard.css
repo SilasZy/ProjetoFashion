@@ -1,0 +1,60 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.conteudo-principal{
+ text-align: center;
+
+}
+.conteudo-principal h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+.conteudo-principal p{
+margin: 10px;
+line-height: 1.8;
+font-family: sans-serif;
+
+}
+.container-card{
+display: flex;
+justify-content: center;
+align-items: center;
+  
+}
+.card-body{
+padding:  10px;
+margin-top: 50px;
+
+}
+/* parte agora do meu article de informacao */
+.container-informacao{
+   background-image: url(https://github.com/serfrontend/CursoWebFundamentos/blob/master/ProjetoFashion/step1/imagens/bg_detalhe.png?raw=true);
+
+
+   
+}
+.container-informacao h1{
+
+text-align: center;
+padding-left: 40px;
+
+
+
+}
+
+.container-informacao p{
+margin-top: 10%;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.4;
+color:whitesmoke;
+padding-left: 40px;
+padding-right: 40px;
+}
