@@ -16,17 +16,13 @@
     padding-bottom: 30px;
     padding-top: 40px;
 }
-.conteudo-principal p{
-margin: 10px;
-line-height: 1.8;
-font-family: sans-serif;
 
-}
 .container-card{
 display: flex;
 justify-content: center;
 align-items: center;
-  
+
+gap: 15px;
 }
 .card-body{
 padding:  10px;
@@ -40,21 +36,13 @@ margin-top: 50px;
 
    
 }
-.container-informacao h1{
-
-text-align: center;
-padding-left: 40px;
 
 
-
+@media(width <= 790px){
+    .container-card{
+        display: grid;
+    }
+    
 }
 
-.container-informacao p{
-margin-top: 10%;
-    font-family: sans-serif;
-    text-align: center;
-    line-height: 1.4;
-color:whitesmoke;
-padding-left: 40px;
-padding-right: 40px;
-}
+    
