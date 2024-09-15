@@ -21,12 +21,17 @@
 display: flex;
 justify-content: center;
 align-items: center;
-
 gap: 15px;
+
 }
 .card-body{
 padding:  10px;
 margin-top: 50px;
+
+}
+.framer{
+filter: grayscale(50%);
+
 
 }
 /* parte agora do meu article de informacao */
@@ -44,5 +49,16 @@ margin-top: 50px;
     }
     
 }
+@media(width <= 500px){
+    .container-card{
+        display: grid;
+    }
+    .framer{
+        width: 300px;
+        height: 250px;
+    }
+    
+}
 
+    
     

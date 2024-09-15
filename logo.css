@@ -44,12 +44,14 @@ font-size: 16px;
    justify-content: end;
    list-style-type: none;
  color: aqua;
+
 }
 
 a:hover{
  color: aqua;
-filter: brightness(40%);
+filter: brightness(30%);
 list-style-type: none;
+
 
 }
 .fashion{
@@ -92,4 +94,18 @@ font-size: 10px;
     .fs-5{
         font-size: 3px;
     }
+}
+@media(width <= 455px){
+   .nav-logo{
+    height: 7vh;
+   }
+   
+}
+@media(width <= 375px){
+   .container-logo{
+height: 30vh;
+
+   }
+
+   
 }
